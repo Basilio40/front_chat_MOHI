@@ -15,7 +15,7 @@ export default defineConfig({
     host: true, // Permite que o servidor seja acessível externamente
   },
   preview: {
-    allowedHosts: ['web-production-58f5a.up.railway.app']
+    allowedHosts: ['chat-ai-mohi.up.railway.app']
   },
 })
 
