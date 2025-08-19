@@ -15,6 +15,7 @@ export default defineConfig({
     host: true, // Permite que o servidor seja acessível externamente
   },
   preview: {
-    host: true, // Permite que o servidor de preview seja acessível externamente
+    allowedHosts: ['web-production-58f5a.up.railway.app']
   },
 })
+
